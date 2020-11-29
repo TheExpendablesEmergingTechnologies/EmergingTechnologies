@@ -4,7 +4,7 @@ Sentiment Analysis is a process where one can mine people’s opinions from a pi
 
 ## Model Architecture
 
-url..
+https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/architecture.png
 
 ## Models
 
