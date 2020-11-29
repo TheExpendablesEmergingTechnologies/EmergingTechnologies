@@ -11,7 +11,6 @@ https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/
 - Single-task model
 - Multi-task SFU
 - Multi-task CD
-- Transfer-learning
 
 ## Datasets
 
