@@ -15,10 +15,9 @@ Sentiment Analysis is a process where one can mine people’s opinions from a pi
 ## Datasets
 
 - [SST](https://nlp.stanford.edu/sentiment/treebank.html)
-- [SemEval 2013 SA task](https://www.cs.york.ac.uk/semeval-2013/task2/)
 - [SFU Review Corpus](https://www.sfu.ca/~mtaboada/SFU_Review_Corpus.html)
 - [Conan Doyle Neg (*Sem 2012)](https://www.clips.uantwerpen.be/sem2012-st-neg/)
-- [Streusle Dataset](https://github.com/nert-nlp/streusle)
+
 
 ## Reference: 
 
