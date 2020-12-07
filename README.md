@@ -15,7 +15,13 @@ Sentiment Analysis is a process where one can mine people’s opinions from a pi
 ## Datasets
 
 - [SST](https://nlp.stanford.edu/sentiment/treebank.html)
+
+Stanford Sentiment Treebank (SST): This dataset contains 11,855 sentences which are taken from the movie reviews specific to English-language. There are two different versions to this dataset. They are SST-fine and SST-binary setting. SST was annotated for fine-grained sentiment with five different class labels. They are strong negative, negative, neutral, positive and strong positive which are specific to the SST-fine. Whereas in the SST-binary setting has 9,613 sentences where the neutral label is removed, instead strong and the normal label in SST-fine are merged to form only positive and negative labels. 
+
 - [Conan Doyle Neg (*Sem 2012)](https://www.clips.uantwerpen.be/sem2012-st-neg/)
+
+Conan Doyle Neg (*Sem 2012): The negation detection model with annotation will work on the sentences to extract the cues (words that change the polarity if the sentences) and scopes (words that gets affected by the cues). This Conan Doyle dataset is used for training the negation model which contains the stories of Conan Doyle and are manually annotated for the negation cues, negation scopes and events. The Bioscope corpus has annotation schemes which was also employed in Conan Doyle but with some major changes. This dataset contains the shared task version from 2012 SEM negation detection. This version consists of 848 negation sentences, out of 787 development sentences, 144 are negated and comprising total 3,640 sentences in training set. The test set consist of total 1089 sentences and out of these 235 sentences are negated. Conan Doyle annotates the different cue types they are sub-token, word-based and multi-word negation scope.  
+
 
 
 ## Reference: 
