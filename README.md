@@ -2,9 +2,9 @@
 
 ## Course: CMPE 297 sec 49 Advance Deep Learning
 
+## Team Members
 
-
-Name | Contributions | 
+Team Members | Contributions | 
 --- | --- | 
 Akshaya Nagarajan | 301 |
 Pooja Patil |     |
