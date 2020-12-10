@@ -6,10 +6,10 @@
 
 Team Members | Contributions | 
 --- | --- | 
-Akshaya Nagarajan | 301 |
-Pooja Patil |     |
-Sivaranjani Kumar |     |
-Vigneshkumar Thangarajan |     |
+Akshaya Nagarajan |  Model training, visualizations and tensor board integration |
+Pooja Patil |  Literature survey, Ablation study and model training   |
+Sivaranjani Kumar |  Collecting and preprocessing dataset, Model training   |
+Vigneshkumar Thangarajan |  Model training and deployed web application   |
 
 ## Abstract: 
 
