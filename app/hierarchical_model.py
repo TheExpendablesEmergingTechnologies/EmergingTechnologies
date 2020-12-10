@@ -114,22 +114,22 @@ class Hierarchical_Model(nn.Module):
         return (h0, c0)
 
     def max_pool(self, x):
-        #batch_size = x.batch_sizes[0]
+        batch_size = x.batch_sizes[0]
 
-        emb = self.word_embeds(x)
+        emb = self.word_embeds(x[0])
         emb = self.batch_norm(emb)
         emb = self.word_dropout(emb)
 
-        #packed_emb = PackedSequence(emb, x.batch_sizes)
-        self.hidden = self.init_hidden1(1)
+        packed_emb = PackedSequence(emb, batch_sizes=x.batch_sizes)
+        self.hidden = self.init_hidden1()
 
-        int_output, (hn, cn) = self.lstm1(emb, self.hidden)
+        int_output, (hn, cn) = self.lstm1(packed_emb, self.hidden)
 
         # For sentiment, concatenate the intermediate rep with the embeddings
         # WE MIGHT NEED TO CHANGE THIS TO KEEP THE HIDDEN REPRESENTATIONS
         # INSTEAD OF THE OUTPUTS
         int_input = torch.cat((emb, int_output.data), dim=1)
-        int_input = PackedSequence(int_input, 1)
+        int_input = PackedSequence(int_input, x.batch_sizes)
 
         output, _ = self.lstm2(int_input)
         o, _ = pad_packed_sequence(output, batch_first=True)
@@ -307,8 +307,8 @@ class Hierarchical_Model(nn.Module):
                     ys.append(int(y))
         f1 = f1_score(ys, preds, average="macro")
         acc = accuracy_score(ys, preds)
-        print("Sentiment F1: {0:.3f}".format(f1))
-        print("Sentiment Acc: {0:.3f}".format(acc))
+        #print("Sentiment F1: {0:.3f}".format(f1))
+        #print("Sentiment Acc: {0:.3f}".format(acc))
         return f1, acc, preds, ys
 
 

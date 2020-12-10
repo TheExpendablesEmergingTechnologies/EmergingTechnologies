@@ -30,7 +30,6 @@ class Split(object):
 
         return words, targets
 
-
 class ChallengeDataset(object):
     def __init__(self, vocab, lower_case, data_file="../data/challenge_dataset/sst-test.txt"):
         text = torchtext.data.Field(lower=lower_case, include_lengths=True, batch_first=True)
@@ -49,11 +48,11 @@ class SSTDataset(object):
         self.vocab = vocab
         self.splits = {}
 
-        for name in ["train", "dev", "test"]:
+        for name in ["train", "dev", "test", "single"]:
             filename = os.path.join(data_dir, name) + ".txt"
             self.splits[name] = self.open_split(filename, lower_case)
 
-        x, y = zip(*self.splits["dev"])
+        x, y = zip(*self.splits["single"])
         y = [int(i) for i in y]
         self.labels = sorted(set(y))
 
