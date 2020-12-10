@@ -11,7 +11,9 @@ Pooja Patil |  Literature survey, Ablation study and model training   |
 Sivaranjani Kumar |  Collecting and preprocessing dataset, Model training   |
 Vigneshkumar Thangarajan |  Model training and deployed web application   |
 
-## Abstract: 
+## Proposal: 
+
+![Project_Proposal_link](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/Documents/ProjectProposal.pdf)
 
 Sentiment Analysis is a process where one can mine people’s opinions from a piece of text. At first glance, this task may look like a simple text classification problem, but once deep dived, one can find out challenges which can affect the sentiment analysis accuracy. For instance, predicting sentiment just using the words in a sentence can lead to major pitfalls such as detecting sarcasm, irony, word ambiguity, use of negating words, also multipolarity. Out of all these phenomena, negation is the most prevalent. Any sentiment analysis model must be able to identify negation and try to remove the effect that its scope has on the final sentiment of a text. In this project, we propose to use Multi-task learning approach, using a cascading and hierarchical neural architecture of LSTM layers. This architecture will explicitly train the model with negation as an auxiliary task and eventually help in improving the main task of sentiment analysis. 
 
