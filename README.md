@@ -25,7 +25,7 @@ Sentiment Analysis is a process where one can mine people’s opinions from a pi
 
 ![alt text](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/arch.png)
 
-## Models
+## Implemented Models
 
 - Single-task model
 - Multi-task SFU
