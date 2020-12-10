@@ -49,9 +49,9 @@ The main objective of this paper is not to achieve new state-of-art results for 
 
 ## Project Report and Presentation Links
 
-- ![Project_Presentation](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/tree/main/Documents)
+- [Project_Presentation](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/tree/main/Documents)
 
-- ![Project_Report](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/tree/main/Documents)
+- [Project_Report](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/tree/main/Documents)
 
 ## Reference: 
 
