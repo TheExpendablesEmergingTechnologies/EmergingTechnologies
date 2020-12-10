@@ -41,6 +41,12 @@ Conan Doyle Neg (*Sem 2012): The negation detection model with annotation will w
 
 The main objective of this paper is not to achieve new state-of-art results for sentiment analysis but rather to gauge the relative contribution of negation task as auxiliary task in sentiment analysis. However, we still achieved competitive results at the end. The single-task model achieves an average accuracy of 46.49 on SST-fine. These results are better than standard performance for a Bidirectional LSTM model 45.6 and competitive with similar models. The extensive analysis of the results reveals several effects of using negation detection as an auxiliary task. On one hand, we find that even a small amount of annotated negation data allows a multi-task learner to improve its performance, while on the other hand, it is necessary to have enough sentiment data to achieve relatively good performance in order to see improvements in single task learning models.
 
+## Link
+
+- ![Project_Presentation](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/tree/main/Documents)
+
+- ![Project_Report](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/tree/main/Documents)
+
 ## Reference: 
 
 [1] Bingel, J. and Søgaard, A. (2017). Identifying beneficial task relations for multi-task learning in deep neural networks. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics, pages 164–169, Valencia, Spain. 
