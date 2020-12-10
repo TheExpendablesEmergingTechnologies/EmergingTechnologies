@@ -35,7 +35,11 @@ Stanford Sentiment Treebank (SST): This dataset contains 11,855 sentences which 
 
 Conan Doyle Neg (*Sem 2012): The negation detection model with annotation will work on the sentences to extract the cues (words that change the polarity if the sentences) and scopes (words that gets affected by the cues). This Conan Doyle dataset is used for training the negation model which contains the stories of Conan Doyle and are manually annotated for the negation cues, negation scopes and events. The Bioscope corpus has annotation schemes which was also employed in Conan Doyle but with some major changes. This dataset contains the shared task version from 2012 SEM negation detection. This version consists of 848 negation sentences, out of 787 development sentences, 144 are negated and comprising total 3,640 sentences in training set. The test set consist of total 1089 sentences and out of these 235 sentences are negated. Conan Doyle annotates the different cue types they are sub-token, word-based and multi-word negation scope.  
 
+# Result and Evaluation
 
+![alt text](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/training.png)
+
+The main objective of this paper is not to achieve new state-of-art results for sentiment analysis but rather to gauge the relative contribution of negation task as auxiliary task in sentiment analysis. However, we still achieved competitive results at the end. The single-task model achieves an average accuracy of 46.49 on SST-fine. These results are better than standard performance for a Bidirectional LSTM model 45.6 and competitive with similar models. The extensive analysis of the results reveals several effects of using negation detection as an auxiliary task. On one hand, we find that even a small amount of annotated negation data allows a multi-task learner to improve its performance, while on the other hand, it is necessary to have enough sentiment data to achieve relatively good performance in order to see improvements in single task learning models.
 
 ## Reference: 
 
