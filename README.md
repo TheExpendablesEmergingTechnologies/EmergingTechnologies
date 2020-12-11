@@ -54,7 +54,7 @@ The main objective of this paper is not to achieve new state-of-art results for 
 
 ## Deployed Web application and predictions for each label[Strong negative, Negative, Neutral, Positive, Strong positive]
 
-![alt text](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/Images/training.png)
+![alt text](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/Images/Webpage_1.png)
 ![alt text](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/Images/Webpage_2.png)
 ![alt text](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/Images/Webpage_3.png)
 ![alt text](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/Images/Webpage_4.png)
