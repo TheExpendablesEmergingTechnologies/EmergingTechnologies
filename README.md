@@ -26,7 +26,7 @@ Sentiment Analysis is a process where one can mine people’s opinions from a pi
 
 This will deploy the model locally.
 
-## Deployed using MLOps [Steps to run the application]
+## Deployed using MLOps_MLflow [Steps to run the application]
 
 
 
