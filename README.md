@@ -1,4 +1,4 @@
-# Improving Sentiment Analysis with Mutli-Task Learning of Negation
+# Improving Sentiment Analysis with Mutli-Task Learning of Negation [Deployed using MLOps_MLflow]
 
 ## Course: CMPE 297 sec 49 Advance Deep Learning
 
@@ -25,9 +25,6 @@ Sentiment Analysis is a process where one can mine people’s opinions from a pi
 4. python app/server.py serve
 
 This will deploy the model locally.
-
-## Deployed using MLOps_MLflow [Steps to run the application]
-
 
 
 ## Model Architecture
