@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vigneshkumarthangarajan/Documents/special/project/multitask_negation_for_sa/models/mlruns/1/56733ffe135d416fa98b709fbe0856a5/artifacts
+end_time: 1607666421353
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 56733ffe135d416fa98b709fbe0856a5
+run_uuid: 56733ffe135d416fa98b709fbe0856a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1607664666247
+status: 3
+tags: []
+user_id: vigneshkumarthangarajan
