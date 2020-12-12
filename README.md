@@ -56,6 +56,15 @@ Conan Doyle Neg (*Sem 2012): The negation detection model with annotation will w
 
 The main objective of this paper is not to achieve new state-of-art results for sentiment analysis but rather to gauge the relative contribution of negation task as auxiliary task in sentiment analysis. However, we still achieved competitive results at the end. The single-task model achieves an average accuracy of 46.49 on SST-fine. These results are better than standard performance for a Bidirectional LSTM model 45.6 and competitive with similar models. The extensive analysis of the results reveals several effects of using negation detection as an auxiliary task. On one hand, we find that even a small amount of annotated negation data allows a multi-task learner to improve its performance, while on the other hand, it is necessary to have enough sentiment data to achieve relatively good performance in order to see improvements in single task learning models.
 
+## MLFOW is used as complete Machine Learning Pipeline
+There are 3 main modules in MLFLOW:
+1. Mlflow Tracking - MLflow also exposes API for creating experiment, logging the model parameters and logging the model evaluation metrics.
+2. Mlflow Project - Mlflow also uses Github artifact to train the model.
+3. Mlflow models - Model artifacts, logs and parameters are saved in a common global location.
+
+## Below is the Screenshot of MLFLOW comparision between experiments
+![alt text](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/Images/Screen%20Shot%202020-12-11%20at%2011.55.55%20PM.png)
+
 ## Deployed Web application and predictions for each label[Strong negative, Negative, Neutral, Positive, Strong positive]
 
 ![alt text](https://github.com/TheExpendablesEmergingTechnologies/EmergingTechnologies/blob/main/Images/Webpage_1.png)
